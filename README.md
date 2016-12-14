@@ -1,7 +1,7 @@
 # claim-portal
 
 ## Installation of project
-fork repository from `https://github.com/rajkumarkale/claim-portal/edit/master/README.md`
+fork repository from `https://github.com/rajkumarkale/claim-portal`
 
 Then clone from your repository
 ``` sh
