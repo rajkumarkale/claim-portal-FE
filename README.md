@@ -1,8 +1,25 @@
 # claim-portal
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+## Installation of project
+fork repository from `https://github.com/rajkumarkale/claim-portal/edit/master/README.md`
 
+Then clone from your repository
+``` sh
+$git clone <git url>
+```
+
+Install npm
+``` sh 
+$npm install
+```
+Install bower
+``` sh
+$bower install
+```
+## Run project
+``` sh
+$grunt serve
+```
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
