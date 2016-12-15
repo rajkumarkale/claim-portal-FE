@@ -308,22 +308,6 @@ label.lbl-3 {
 /* Change autocomplete styles in WebKit */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
-
-<<<<<<< HEAD
-
-/* Change autocomplete styles in WebKit */
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-
-input:-webkit-autofill
- {
-	 background: url(../images/adm.png) no-repeat 10px 15px;
-  -webkit-text-fill-color: white;
-  transition: background-color 50000s ease-in-out 0s;
-}
-
-/* PRESENTATIONAL STYLES */
-=======
 input:-webkit-autofill
 {
   background: url(../images/adm.png) no-repeat 10px 15px;
@@ -342,4 +326,3 @@ input:-webkit-autofill
   font-size: 21px;
   padding: 12px 0 0 0;}
 .p-0{padding:0px;}
->>>>>>> main-repo/master
