@@ -1,0 +1,21 @@
+.emp-header{background: #60c5ef;
+  background: -moz-linear-gradient(-45deg, #60c5ef 8%, #2847cc 99%);
+  background: -webkit-linear-gradient(-45deg, #60c5ef 8%,#2847cc 99%);
+  background: linear-gradient(135deg, #60c5ef 8%,#2847cc 99%);
+  height: 57px;position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;}
+.emp-footer{background: #60c5ef;
+  background: -moz-linear-gradient(-45deg, #60c5ef 8%, #2847cc 99%);
+  background: -webkit-linear-gradient(-45deg, #60c5ef 8%,#2847cc 99%);
+  background: linear-gradient(135deg, #60c5ef 8%,#2847cc 99%);
+  height: 57px;position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 201;
+  bottom: 13%;
+  box-sizing: border-box;
+  padding: 23px 25px;}
+
