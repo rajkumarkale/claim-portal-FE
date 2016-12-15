@@ -468,4 +468,16 @@ label.lbl-3 {
 }
 /*--end-responsive-design--*/
 
-input{background-color: none !important;}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+
+input:-webkit-autofill
+ {
+	 background: url(../images/adm.png) no-repeat 10px 15px;
+  -webkit-text-fill-color: white;
+  transition: background-color 50000s ease-in-out 0s;
+}
+
+/* PRESENTATIONAL STYLES */
