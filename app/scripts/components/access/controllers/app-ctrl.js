@@ -2,7 +2,7 @@ angular.module("claimPortalApp").controller("AppCtrl", ['$scope', '$state',funct
 	console.log("=========app.access--- app.accessAppCtrl ======= ");
 	$state.go('app.signin');
 
-}])
+}]);
 
 
 
