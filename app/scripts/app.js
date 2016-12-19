@@ -17,8 +17,17 @@ angular
     'ngMessages',
     'ngResource',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ngMaterial',
+    'toaster'
   ])
-  .config(function ($httpProvider, $qProvider) {
+  .config(function ($httpProvider, $qProvider,$locationProvider) {
     $qProvider.errorOnUnhandledRejections(false);
+// $locationProvider.html5Mode(true).hashPrefix('!');
   });
+
+angular.element(document).ready(function () {
+    angular.module('claimPortalApp')
+    .constant('appConfig');
+    angular.bootstrap(document, ['claimPortalApp']);
+  })

@@ -18,17 +18,23 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/empDashboardStyles.css">
+  <link rel="stylesheet" href="styles/animate.css">
+	<link rel="stylesheet" href="styles/prettyPhoto.css" >
+	<link rel="stylesheet" href="styles/style.css" />
+<link rel="stylesheet/less" href="styles/animation.less" type="text/css" />
   <!-- endbuild -->
+<!--<base href="/">-->
 </head>
 
-<body ng-app="claimPortalApp" ng-controller="AppCtrl">
+<body ng-controller="AppCtrl">
   <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
   <!-- Add your site or application content here -->
 
-  <div ui-view> </div>
+  <main ui-view> </main>
+  <toaster-container toaster-options="{'time-out': 2000,'position-class': 'toast-bottom-right'}"></toaster-container>
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
   <!--<script>
        !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
@@ -62,10 +68,21 @@
   <script src="bower_components/angular-material/angular-material.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
+<!-- start  vendors-->
+<script src="vendors/jquery-2.1.1.min.js"></script>
 
+<script src="vendors/wow.min.js"></script>
+<script src="vendors/jquery.prettyPhoto.js"></script>
+    <script src="vendors/jquery.isotope.min.js"></script>
+<script src="vendors/functions.js"></script>    
+
+</script>
+<!-- end vendors -->
   <!-- build:js({.tmp,app}) scripts/scripts.js -->
   <script src="scripts/app.js"></script>
   <script src="scripts/app.routing.js"></script>
+
+  <script src="scripts/components/access/services/toaster-service.js">  </script>
   <script src="scripts/components/access/controllers/app-ctrl.js">  </script>
   <script src="scripts/components/access/controllers/sign-in-controller.js">  </script>
   <script src="scripts/components/employee/controllers/employee-dashboard-controller.js">  </script>
