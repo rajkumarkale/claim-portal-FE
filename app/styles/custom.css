@@ -1,0 +1,26 @@
+.wrapper {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.claim-button {
+  padding: 14px 80px;
+  border: 1px solid cornflowerblue;
+  border-radius: 30px;
+  margin: 0 40px;
+  font-size: 22px;
+  background-color: cornflowerblue;
+  color: white;
+}
+.track-button {
+  padding: 14px 80px;
+  border: 1px solid cornflowerblue;
+  border-radius: 30px;
+  margin: 0 23px;
+  font-size: 22px;
+  background-color: cornflowerblue;
+  color: white;
+}
