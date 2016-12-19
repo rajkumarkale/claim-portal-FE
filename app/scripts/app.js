@@ -21,13 +21,13 @@ angular
     'ngMaterial',
     'toaster'
   ])
-  .config(function ($httpProvider, $qProvider,$locationProvider) {
+  .config(function ($httpProvider, $qProvider, $locationProvider) {
     $qProvider.errorOnUnhandledRejections(false);
-// $locationProvider.html5Mode(true).hashPrefix('!');
+    // $locationProvider.html5Mode(true).hashPrefix('!');
   });
 
 angular.element(document).ready(function () {
-    angular.module('claimPortalApp')
+  angular.module('claimPortalApp')
     .constant('appConfig');
-    angular.bootstrap(document, ['claimPortalApp']);
-  })
+  angular.bootstrap(document, ['claimPortalApp']);
+})
