@@ -14,7 +14,7 @@
     .backdrop-position-fixed .md-opaque{
         position: fixed;
     }
-    
+
 
     input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     background-color:white !important;
@@ -25,3 +25,4 @@
 /*Bread crum*/
 .breadcrumb li{color: white;}
 
+body{overflow-y: hidden}

@@ -1,6 +1,6 @@
 angular.module("claimPortalApp").controller("AppCtrl", ['$scope', '$state', '$rootScope', '$mdDialog',
 	function ($scope, $state, $rootScope, $mdDialog) {
-		console.log('loading===========================')
+		console.log('loading===========================');
 		$state.go('app.signin');
 		$scope.showLogOut = false;
 		$scope.showBreadcrum=false;
