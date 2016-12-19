@@ -7,8 +7,8 @@ angular.module('claimPortalApp')
       .state('app', {
         url: '/app',
         abstract: true,
-        templateUrl: 'scripts/components/access/views/app.html',
-        controller:'AppCtrl'
+        templateUrl: 'scripts/components/access/views/app.html'
+        //controller:'AppCtrl'
       })
       .state('app.signin', {
         url: '/sign-in',
@@ -41,8 +41,14 @@ angular.module('claimPortalApp')
       .state('app.blog', {
         url: '/blog',
         templateUrl: 'scripts/components/access/views/blog.html'
-      });
-    
+      })
+      .state('app.project_details', {
+      url: '/project-details',
+      templateUrl: 'scripts/components/employee/views/project-details-view.html',
+        controller:'ProjectDetailsCtrl',
+        controllerAs:'prjctDtlsCtrl'
+    });
+
 
     $urlRouterProvider.otherwise('/app');
   }]);

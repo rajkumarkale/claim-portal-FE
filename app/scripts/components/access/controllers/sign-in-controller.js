@@ -6,21 +6,19 @@ angular.module("claimPortalApp")
     function ($scope, $state, $mdSidenav, $rootScope,ToastService) {
       var signInCtrl = this;
       $rootScope.showLogOut = false;
-      var uEmail = "mr.rajkale@gmail.com";
-      var ePassword = "password";
       signInCtrl.emailId = '';
-      signInCtrl.password = ''
+      signInCtrl.password = '';
       signInCtrl.submitCredentials = function () {
-        if (signInCtrl.emailId === uEmail && signInCtrl.password === ePassword) {
-          ToastService.toastSuccess('Success', 'You are done!')
+        if (signInCtrl.emailId && signInCtrl.password) {
+          ToastService.toastSuccess('Success', 'You are done!');
           $state.go('app.profile')
         }
         else {
-          ToastService.toastError('', 'Error', 'Plase enter valid email & password')
+          ToastService.toastError('','Plase check your credentials');
           return;
         }
 
-      }
+      };
 
       // Open Side Nav For Credentials
       signInCtrl.toggleSideNav = function () {
