@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cf71816-b7f1-48e7-b0ba-19ae34923fcc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.routing.js" afterPath="$PROJECT_DIR$/app/scripts/app.routing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/components/access/views/app.html" afterPath="$PROJECT_DIR$/app/scripts/components/access/views/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/components/employee/views/profile.html" afterPath="$PROJECT_DIR$/app/scripts/components/employee/views/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
-    </list>
+    <list default="true" id="6cf71816-b7f1-48e7-b0ba-19ae34923fcc" name="Default" comment="" />
     <ignored path="claim-portal.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -473,12 +466,12 @@
       <workItem from="1482129647034" duration="16841000" />
       <workItem from="1482207796742" duration="794000" />
       <workItem from="1482209877978" duration="695000" />
-      <workItem from="1482471877322" duration="579000" />
+      <workItem from="1482471877322" duration="1594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50473000" />
+    <option name="totallyTimeSpent" value="51488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +484,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20907739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48039216" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
