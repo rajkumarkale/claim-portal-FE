@@ -29,5 +29,5 @@ angular
 angular.element(document).ready(function () {
   angular.module('claimPortalApp')
     .constant('appConfig');
-  angular.bootstrap(document, ['claimPortalApp']);
-})
+    angular.bootstrap(document, ['claimPortalApp']);
+  });
