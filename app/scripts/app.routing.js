@@ -43,11 +43,17 @@ angular.module('claimPortalApp')
         templateUrl: 'scripts/components/access/views/blog.html'
       })
       .state('app.project_details', {
-      url: '/project-details',
-      templateUrl: 'scripts/components/employee/views/project-details-view.html',
-        controller:'ProjectDetailsCtrl',
-        controllerAs:'prjctDtlsCtrl'
-    });
+        url: '/project-details',
+        templateUrl: 'scripts/components/employee/views/project-details-view.html',
+        controller: 'ProjectDetailsCtrl',
+        controllerAs: 'prjctDtlsCtrl'
+      })
+      .state('app.track_status', {
+        url: '/track-status',
+        templateUrl: 'scripts/components/employee/views/track-status-view.html',
+        controller: 'TrackStatusCtrl',
+        controllerAs: 'trckStsCtrl'
+      });
 
 
     $urlRouterProvider.otherwise('/app');
