@@ -4,4 +4,5 @@
 angular.module("claimPortalApp")
   .controller("EmployeeDashboardCtrl", ['$scope', '$state',function($scope, $state){
     var empDashboardCtrl=this;
+    
 }]);
