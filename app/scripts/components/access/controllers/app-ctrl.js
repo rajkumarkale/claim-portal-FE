@@ -10,6 +10,12 @@ angular.module("claimPortalApp").controller("AppCtrl", ['$scope', '$state', '$ro
 			if (preState.name === 'app.profile') {
 				$scope.showLogOut = true;
 			}
+      else if (preState.name === 'app.project_details'){
+        $scope.showLogOut = true;
+      }
+      else if (preState.name === 'app.track_status'){
+        $scope.showLogOut = true;
+      }
 			else { $scope.showLogOut = false; }
 			if (preState.name === 'app.signin') {
 				$scope.showBreadcrum = false;

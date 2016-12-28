@@ -26,3 +26,12 @@
 .breadcrumb li{color: white;}
 
 
+/*body{overflow-y: hidden}*/
+tr.d0 td {
+  background-color: aliceblue;
+  color: black;
+}
+tr.d1 td {
+  background-color: #e5f2fb;
+  color: black;
+}

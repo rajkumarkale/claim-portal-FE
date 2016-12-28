@@ -8,3 +8,4 @@ angular.module("claimPortalApp")
       {project:'cFog',location:'hyderabad',budget:'30,000'},
       {project:'cFog',location:'hyderabad',budget:'30,000'}]
   }]);
+
