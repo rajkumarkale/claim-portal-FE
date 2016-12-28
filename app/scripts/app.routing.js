@@ -53,6 +53,12 @@ angular.module('claimPortalApp')
         templateUrl: 'scripts/components/employee/views/track-status-view.html',
         controller: 'TrackStatusCtrl',
         controllerAs: 'trckStsCtrl'
+      })
+      .state('app.claim_form', {
+        url: '/claim-form',
+        templateUrl: 'scripts/components/employee/views/apply-claim-form-view.html',
+        controller: 'ApplyClaimController',
+        controllerAs: 'claimCtrl'
       });
 
 
