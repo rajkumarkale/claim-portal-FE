@@ -38,3 +38,4 @@ angular.module("claimPortalApp")
       projectObj.isSelected=!projectObj.isSelected;
     }
   }]);
+
