@@ -19,7 +19,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'ngMaterial',
-    'toaster'
+    'toaster',
+    'cl.paging'
   ])
   .config(function ($httpProvider, $qProvider,$locationProvider) {
     $qProvider.errorOnUnhandledRejections(false);

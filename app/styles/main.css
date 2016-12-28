@@ -26,6 +26,10 @@
 .breadcrumb li{color: white;}
 
 
+
+.m-l-10{margin-left:10px;}
+.m-r-10{margin-right:10px;}
+
 /*body{overflow-y: hidden}*/
 tr.d0 td {
   background-color: aliceblue;
@@ -35,3 +39,4 @@ tr.d1 td {
   background-color: #e5f2fb;
   color: black;
 }
+

@@ -19,7 +19,8 @@
     "angular-route": "^1.4.0",
     "angular-sanitize": "^1.4.0",
     "angular-touch": "^1.4.0",
-    "angular-material": "^1.0.9"
+    "angular-material": "^1.0.9",
+    "material-angular-paging": "*"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"
@@ -34,5 +35,8 @@
         "dist/js/bootstrap.js"
       ]
     }
+  },
+  "resolutions": {
+    "angular": "1.5.6"
   }
 }
