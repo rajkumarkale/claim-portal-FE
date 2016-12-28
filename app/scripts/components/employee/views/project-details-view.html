@@ -1,3 +1,4 @@
+
  <div class="container">
   <div class="col-md-12 text-center m-t-20">
     <md-radio-group ng-model="data.group1" class="display-flex">
@@ -8,8 +9,7 @@
   <div class="col-md-12">
     <div>
       <table class="tb-border table table-hover table-striped">
-        <thead style="background-color: deepskyblue;
-    color: white;">
+        <thead>
         <tr>
           <th>Project Name</th>
           <th>Location </th>
@@ -26,17 +26,6 @@
       </table>
     </div>
     <div class=" pull-left text-center ">  <md-button class="cust-btn btn-bg-color  md-raised md-primary" ui-sref="app.profile">Back</md-button></div>
-    <div ng-app="DemoApp" flex layout="column">
-      <div flex ng-controller="MainController" layout="column">
-
-
-        <section layout="row" layout-padding="">
-
-          <cl-paging flex cl-pages="paging.total" , cl-steps="6" , cl-page-changed="paging.onPageChanged()" , cl-align="center center" , cl-current-page="paging.current"></cl-paging>
-
-        </section>
-
-      </div>
-    </div>
   </div>
 </div>
+
