@@ -470,7 +470,7 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
-      'wiredep',
+      //'wiredep',
       'concurrent:server',
       'postcss:server',
       'connect:livereload',
@@ -485,16 +485,16 @@ module.exports = function (grunt) {
 
   grunt.registerTask('test', [
     'clean:server',
-    'wiredep',
+    //'wiredep',
     'concurrent:test',
     'postcss',
-      'connect:test',
+    'connect:test',
     'karma'
   ]);
 
   grunt.registerTask('build', [
     'clean:dist',
-    'wiredep',
+   // 'wiredep',
     'useminPrepare',
     'concurrent:dist',
     'postcss',
@@ -508,7 +508,7 @@ module.exports = function (grunt) {
     'filerev',
     'usemin',
     'htmlmin',
-      'imagemin'
+    'imagemin'
   ]);
 
   grunt.registerTask('default', [
