@@ -7,7 +7,7 @@ angular
     .factory('myInterceptor', function ($q, $location) {
         return {
             request: function (config) {
-                config.headers = config.header || {};
+                // config.headers = config.header || {};
                 //   if ($localStorage.token) { config.headers.Authorization = 'Bearer ' + $localStorage.token;
                 //  }
                 return config;

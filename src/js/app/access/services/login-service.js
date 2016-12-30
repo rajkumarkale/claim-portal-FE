@@ -21,12 +21,13 @@
 var app = angular.module('claimPortalApp');
 
 app.service('loginService', ['$http', '$q', function ($http, $q) {
-    var appUri = "https://claim-backend.herokuapp.com"
+    var localUri = 'http://localhost:3000';
+    //var appUri = "https://claim-backend.herokuapp.com"
     this.login = function (data) {
         var deferred = $q.defer();
         $http({
             method: 'POST',
-            url: appUri + '/login',
+            url: localUri + '/login',
             data: data
         }).success(function (data) {
             deferred.resolve(data);
