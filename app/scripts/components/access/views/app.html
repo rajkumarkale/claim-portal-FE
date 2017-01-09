@@ -1,0 +1,21 @@
+<!-- Start Header -->
+<div data-ng-include="'scripts/components/access/views/header.html'"></div>
+<!-- End Header -->
+
+<!-- Start Breadcrum -->
+<div id="breadcrumb" data-ng-if="showBreadcrum">
+	<div class="container">
+		<div class="breadcrumb">
+			<li><a ui-sref="app.signin">Home</a></li>
+			<li>{{stateUrl}}</li>
+		</div>
+	</div>
+</div>
+<!-- End Breadcrum -->
+
+<!-- App main content views -->
+<div ui-view class=""></div>
+<!-- End of main content -->
+<!-- Footer-->
+<div data-ng-include="'scripts/components/access/views/footer.html'"></div>
+<!-- End Footer -->
