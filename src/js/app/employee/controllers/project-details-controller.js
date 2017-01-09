@@ -2,25 +2,14 @@
  * Created by kveena on 12/19/2016.
  */
 angular.module("claimPortalApp")
-  .controller("ProjectDetailsCtrl", ['$scope', '$state',function($scope, $state){
+  .controller("ProjectDetailsCtrl", ['$scope', '$state','ProjectModel','projectService', function($scope, $state,ProjectModel,projectService){
     var prjctDtlsCtrl=this;
-    prjctDtlsCtrl.projectDetailsArr=[{projectId:"001",project:'cFog',location:'hyderabad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabgdfgad',budget:'30,000',isSelected:false},
-      {projectId:"00cf1",project:'fgdfcFog',location:'hyderabad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFdfsog',location:'hyderabad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabdfad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabdfad',budget:'30dfsd,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabdfad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabdfad',budget:'30,000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderfsfabad',budget:'30,dfsdf4534000',isSelected:false},
-      {projectId:"001",project:'cFog',location:'hyderabad',budget:'30,6456000',isSelectedd:false},
-     
-      
-      ];
+    prjctDtlsCtrl.ProjectDetailsModel=new ProjectModel({});
+    prjctDtlsCtrl.projectDetailsArr = [];
+    projectService.getProject().then(function (response) {
+      prjctDtlsCtrl.projectDetailsArr = response;
+    });
+    console.log(prjctDtlsCtrl.projectDetailsArr +"fgdfgsdfg")
     prjctDtlsCtrl.currentPage = 0;
     prjctDtlsCtrl.paging = {
       total: prjctDtlsCtrl.projectDetailsArr.length,
